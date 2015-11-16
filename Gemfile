@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.2.2'
 
-gem 'rails'
+gem 'rails', '~> 4.1.1'
 gem 'heroku'
 gem 'bugsnag'
 gem 'secure_equals'
@@ -15,7 +15,7 @@ gem 'skylight'
 gem 'pry', '0.10.0.pre4'
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+#gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
 
